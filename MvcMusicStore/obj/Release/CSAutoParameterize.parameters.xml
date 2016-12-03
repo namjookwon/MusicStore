@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="DefaultConnection-Web.config Connection String" description="DefaultConnection Connection String used in web.config by the application to access the database." defaultValue="Data Source=(LocalDb)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\aspnet-MvcMusicStore-20160115034906.mdf;Initial Catalog=aspnet-MvcMusicStore-20160115034906;Integrated Security=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="E:\\ASP2\\MvcMusicStore\\MvcMusicStore\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+  <parameter name="MusicStoreDB-Web.config Connection String" description="MusicStoreDB Connection String used in web.config by the application to access the database." defaultValue="Data Source=(localdb)\MSSQLLocalDB; Initial Catalog=MusicStoreDB-20160119133046; Integrated Security=True; MultipleActiveResultSets=True; AttachDbFilename=|DataDirectory|MusicStoreDB-20160119133046.mdf" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="E:\\ASP2\\MvcMusicStore\\MvcMusicStore\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='MusicStoreDB']/@connectionString" />
+  </parameter>
+</parameters>
